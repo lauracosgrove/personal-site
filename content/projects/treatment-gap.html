@@ -1,0 +1,41 @@
+---
+title: treatment gap
+---
+
+<h1>Treatment Gap</h1>
+
+<p class="top">One of my first projects at MedicaSafe while I was still finishing up my last year in undergrad was to visualize the treatment gap for patients with opioid use disorder.</p>
+<h2> Motivation </h2>
+<p>The treatment gap refers to the lack of capacity to use buprenorphine to treat those with dire need of evidence-based pharmacological treatment for opioid use disorder in many areas in the U.S. This gap may occur partly due to the restriction on prescribing buprenorphine for medication-assisted treatment of opioid addiction to certified providers, as well as a constellation of other factors including individual physicians’ resistance and, perhaps, organizational disincentives. This problem can be particularly intense in rural or suburban areas, where rates of opioid overdose-related deaths are typically higher.
+</p>
+<h2> My Role </h2>
+<p>This was an independent project. I prepared data by querying the CDC Wonder database using guidelines from UCSD prof. Peter Davidson <a href="https://overdosedeaths.org/index.php">(site)</a>. I cleaned data in Excel and visualized with Tableau Public.</p>
+
+<div class="gallery">
+<a href="/images/gap.png/" class="popup-img"><img src="/images/gap.png/" width="640px" height="480"></img></a>
+<script type="text/javascript">
+$('.popup-img').magnificPopup({
+    items: [
+      {
+        src: 'https://public.tableau.com/views/NYtreatmentcapacitydeficits/Sheet1?:embed=y&:display_count=yes',
+        type: 'iframe' // this overrides default type
+      },
+      {
+        src: 'https://public.tableau.com/views/CAopioidtreatmentcapacitydeficits/Sheet1?:embed=y&:display_count=yes',
+        type: 'iframe' // this overrides default type
+      },
+      {
+        src: 'https://public.tableau.com/views/DeathsRelatedtoOpioidAbuseintheU_S1999-2014/Sheet1?:embed=y&:display_count=yes',
+        type: 'iframe' // this overrides default type
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+});
+</script>
+<iframe src="https://public.tableau.com/views/CAopioidtreatmentcapacitydeficits/Sheet1?:embed=y&:display_count=yes" width="640" height="480"></iframe>
+<iframe src="https://public.tableau.com/views/DeathsRelatedtoOpioidAbuseintheU_S1999-2014/Sheet1?:embed=y&:display_count=yes" width="640" height="480"></iframe>
+
+</div>

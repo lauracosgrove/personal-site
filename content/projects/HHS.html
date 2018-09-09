@@ -1,0 +1,39 @@
+---
+title: HHS
+---
+
+<h1>HHS Opioid Code-A-Thon</h1>
+
+<p class="top">Last December, I along with my coworkers Aziz and Jason took a trip to DC for a code-a-thon event sponsored by the Department of Health and Human Services. HHS wanted to know what solutions for treatment, prevention, or communication of the opioid crisis could be built using federal and state-level datasets collected as part of the Department’s opioid initiative. </p>
+<p>Our team completed a functional, interactive treatment accessibility explorer in a responsive Javascript map incorporating multiple federal- and state-level datasets over the course of about 24 hours. I can’t reproduce what we made other than visually, since under the terms of the code-a-thon, we were directed to delete all datasets following the event.</p>
+<h2> Motivation </h2>
+<p>Based on my previous <a href="/projects/treatment-gap/">work</a> with CDC wonder and SAMHSA data and my company’s focus on improving treatment accessibility, I thought that using datasets to visualize the treatment gap would be a good place to start. Something I thought could be improved from the way treatment gaps were typically visualized, including in my previous projects, was a greater level of interactivity to help inspire community-based thinking. It’s a common wisdom that stories with data are more powerful when your viewer can make a reference to something she already knows well, like commute times. I believe eliciting empathy is important when communicating data, and particularly for stigmatized conditions.</p>
+<h2> My Role </h2>
+<p>I led the project definition and worked with python to clean and prepare datasets for entry into the app; it was my first time using python for data science. I also worked with Aziz to mock up the future design in Illustrator, and helped Jason a bit with the mapbox platform.</p>
+
+<div class="gallery">
+<a href="/images/hhs-redesign.png" class="popup-img"><img src="/images/hhs-redesign.png" width="640px"></img></a>
+<script type="text/javascript">
+$('.popup-img').magnificPopup({
+    items: [
+      {
+        src: '/images/hhs-redesign.png'
+      },
+      {
+        src: 'https://vimeo.com/288967092',
+        type: 'iframe' // this overrides default type
+      },
+      {
+        src: '/images/hhs.png', // CSS selector of an element on page that should be used as a popup
+        type: 'image'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+});
+</script>
+<iframe src="https://player.vimeo.com/video/288967092" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/288967092">Interactive treatment accessibility explorer</a> from <a href="https://vimeo.com/user89333035">Laura Cosgrove</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</div>
